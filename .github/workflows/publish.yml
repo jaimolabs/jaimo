@@ -9,7 +9,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     
-    # 赋予 GitHub Actions 访问 PyPI 的可信发布权限（推荐方式）
     permissions:
       id-token: write
 
